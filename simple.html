@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html data-ng-app="freebiciMad">
+  <head>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="scripts/geolocation.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/leaflet/dist/leaflet.js"></script>
+    <script src="bower_components/angular-leaflet-diretive/dist/angular-leaflet-directive.min.js"></script>
+    <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
+    <link  href="bower_components/leaflet.markercluster/dist/MarkerCluster.css" rel="stylesheet">
+    <link  href="bower_components/leaflet.markercluster/dist/MarkerCluster.Default.css" rel="stylesheet">
+    <script src="bower_components/leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+    <script src="scripts/simpleapp.js"></script>
+    <script src="scripts/estaciones.js"></script>
+    <script src="scripts/simplecontroler.js"></script>
+
+  </head>
+  <body ng-controller="freebiciMad">
+      <p>Nothing here {{'yet' + '!'}}</p>
+      {{Geo.lat}},
+      {{Geo.lng}}
+      
+
+       <leaflet id="map" style ="width:1200px;height:600px;"  center="center"></leaflet>
+
+
+       {{Estaciones.nombre}} <br>
+
+       ffdsafsadfsafds
+
+    <!-- <leaflet id="map" widt
+    h="640px" height="480px"></leaflet> -->
+
+
+
+        <script>
+        /*
+      var map = L.map('map').setView([40.414, -3.684],13);
+      L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+    maxZoom: 18
+    }).addTo(map);  
+*/
+    </script>
+  </body>
+</html>

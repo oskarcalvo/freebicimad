@@ -1,0 +1,14 @@
+var freebiciMad = angular.module('freebiciMad', ['leaflet-directive']);
+
+freebiciMad.controller('freebiciMad', function($scope, $http){
+
+  $.getJSON('http://bicimad-api.herokuapp.com/').success(   function (data) { 
+  if(data.success == 1){
+    console.log(data); 
+  }
+  
+  });
+  
+});
+
+
