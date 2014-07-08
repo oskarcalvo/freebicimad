@@ -2,7 +2,7 @@
   "name" : "freebicimad",
   "version" : "0.0.1",
   "dependencies": {
-    "jquery" : "~1.11.1",
+    "jquery" : "1.11.1",
     "jquery-ui" : "*",
     "leaflet-dist" : "~0.7.2",
     "leaflet.markercluster" : "0.4.0"
